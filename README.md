@@ -1,95 +1,92 @@
-<<<<<<< HEAD
-# Secure Login System (Flask)
+# 🔐 Cyber Security Toolkit
 
-A secure authentication system built with Python Flask, SQLite, and Bootstrap 5, featuring a cyber security theme, glassmorphic layout, and custom security configurations.
-
-## Features
-
-1. **User Authentication**:
-   - User Registration (with real-time credentials policy check).
-   - User Login (supporting both Username and Email credentials).
-   - User Logout (complete session invalidation).
-   - Protected Dashboard showing custom user records and session analytics.
-
-2. **Cyber Security Implementation**:
-   - **Password Cryptography**: Salted password hashing via Bcrypt.
-   - **SQL Injection Prevention**: Built with SQLAlchemy ORM which handles parameterized queries automatically.
-   - **CSRF Defense**: Custom session token validation on all POST actions.
-   - **Session Security**: Invalidation of old session IDs on login (Session Fixation protection) + HTTPOnly and SameSite cookie options.
-   - **Security Headers**: Custom HTTP headers added (`X-Frame-Options`, `X-Content-Type-Options`, `X-XSS-Protection`, and `Content-Security-Policy`).
-   - **Form Validations**: Advanced password complexity checking (minimum length, casing, numbers, and special symbols) and email format regex.
-
-3. **Visual & Interactive Design**:
-   - Responsive Glassmorphism cards using Backdrop Filters and subtle translucent borders.
-   - Dark space cyber security design theme.
-   - HTML5 Canvas background drawing a dynamic interactive node grid.
-   - Original minimalist anime-style cyber hacker avatar.
-   - Custom floating inputs, password visibility toggles, and automatic alert dismissal.
+A multi-project cybersecurity repository containing tools for password analysis, phishing detection, and vulnerability scanning. This project demonstrates fundamental security concepts through practical implementations.
 
 ---
 
-## Folder Structure
-
-```
-Secure-Login-System/
-│
-├── app.py
-├── models.py
-├── requirements.txt
-├── README.md
-│
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│
-├── static/
-│   ├── css/style.css
-│   ├── js/script.js
-│   ├── images/
-│   │   └── hacker.jpg
-│
-└── screenshots/
-```
+## 📌 Table of Contents
+- [📖 About the Project](#-about-the-project)
+- [📂 Projects Included](#-projects-included)
+- [🧠 Objective](#-objective)
+- [⚙️ Features](#️-features)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [📁 Repository Structure](#-repository-structure)
+- [🚀 Installation](#-installation)
+- [▶️ How to Run](#️-how-to-run)
+- [📦 Requirements](#-requirements)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [👨‍💻 Author](#-author)
+- [⭐ Future Improvements](#-future-improvements)
 
 ---
 
-## Installation & Launch Instructions
+## 📖 About the Project
+This repository is designed to strengthen cybersecurity understanding through three essential security tools:
+- Password Strength Analysis
+- Phishing Email Detection
+- Vulnerability Scanning
 
-### Prerequisites
-- Python 3.8 or higher.
-- `pip` package manager.
+Each project focuses on real-world security problems and provides simple, educational solutions.
 
-### 1. Clone/Open Project Directory
-Ensure you are inside the directory:
-```bash
-cd "c:\Users\DHARANI M\OneDrive\Apps\intern4"
-```
+---
 
-### 2. Setup Virtual Environment (Recommended)
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+## 📂 Projects Included
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+### 1️⃣ Password Strength Analyzer
+Evaluates how strong a password is based on security rules.
 
-### 4. Run the Application
-```bash
-python app.py
-```
+**Key Functions:**
+- Length validation
+- Uppercase/lowercase detection
+- Numbers and symbols check
+- Weak pattern detection
+- Strength score generation
 
-### 5. Access the Web Application
-Open your browser and navigate to:
-```
-http://127.0.0.1:5000
-```
-=======
-# Cyber-Security-Internship-Projects
-Four Cyber Security projects developed during my internship at Thiranex IT Solutions.
->>>>>>> 0918b1cf13c8c78c9991806d5766f952ee736c5e
+---
+
+### 2️⃣ Phishing Email Detection
+Detects whether an email is safe or phishing-based.
+
+**Key Functions:**
+- Suspicious keyword detection
+- Fake URL detection
+- Regex-based filtering
+- Email classification (SAFE / PHISHING)
+
+---
+
+### 3️⃣ Vulnerability Scanner
+Scans systems for open ports and basic security risks.
+
+**Key Functions:**
+- Port scanning
+- Service detection
+- Basic vulnerability identification
+- Risk level analysis
+
+---
+
+## 🧠 Objective
+To develop a beginner-friendly cybersecurity toolkit that demonstrates how common security threats are identified and analyzed in real-world systems.
+
+---
+
+## ⚙️ Features
+- Lightweight Python-based tools
+- Beginner-friendly implementation
+- Modular project structure
+- Easy to run and modify
+- Educational cybersecurity examples
+
+---
+
+## 🛠️ Technologies Used
+- Python 🐍
+- Socket Programming
+- Regular Expressions (Regex)
+- Basic Machine Learning (optional for phishing detection)
+- Networking Concepts
+
+---
+
+## 📁 Repository Structure
