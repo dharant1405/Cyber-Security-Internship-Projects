@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secure Login System (Flask)
 
 A secure authentication system built with Python Flask, SQLite, and Bootstrap 5, featuring a cyber security theme, glassmorphic layout, and custom security configurations.
@@ -88,3 +89,7 @@ Open your browser and navigate to:
 ```
 http://127.0.0.1:5000
 ```
+=======
+# Cyber-Security-Internship-Projects
+Four Cyber Security projects developed during my internship at Thiranex IT Solutions.
+>>>>>>> 0918b1cf13c8c78c9991806d5766f952ee736c5e
